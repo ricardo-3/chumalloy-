@@ -142,18 +142,20 @@ nav ul li.nav-item a:hover{
     height:63px;
         }
 
+
+        
         .titulos h2{
             font-size: 20px;
             letter-spacing: 3px;    
             text-align: center;
             background: rgba(240, 108, 7, 0.3);
-            color: #fff; 
+            color: white; 
             width: 320px;
             height: 30px;
             margin: auto;
             margin-top: 20px;
             margin-bottom: 20px;
-            
+                     
             
                   
         }
