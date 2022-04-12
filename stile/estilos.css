@@ -1,26 +1,33 @@
 body{
-    background: linear-gradient(to bottom, #000000, #434343); 
+    background: #1B1A17; 
     font-family: 'Fira Sans', sans-serif;
-font-family: 'Noto Serif', serif;
-    
+    font-family: 'Noto Serif', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
   
 }
 
 
 nav{
-    box-shadow: 2px 19px 27px -7px rgba(253,251,251,0.25);
-    -webkit-box-shadow: 2px 19px 27px -7px rgba(253,251,251,0.25);
-    -moz-box-shadow: 2px 19px 27px -7px rgba(253,251,251,0.25);
+    box-shadow: 2px 19px 17px -7px rgba(253,251,251,0.25);
+    -webkit-box-shadow: 2px 19px 18px -7px rgba(253,251,251,0.25);
+    -moz-box-shadow: 2px 19px 15px -7px rgba(253,251,251,0.25);
 }
 .navbar-brand{
     letter-spacing: 4px;
     font-size: 27px;
+    color: #F0A500;    
+}
+
+.navbar .titulo a{
     
+    color: #F0A500;
 }
 
 
 nav ul li.nav-item a{
-  color: #fff!important;
+  color: #F0A500!important;
   text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -36,13 +43,17 @@ nav ul li.nav-item a:hover{
   
 }
 
+.boton .tex2{
+    color: #F0A500;
+}
 
-.titulos h2{
+
+.titulos .text{
     font-size: 40px;
     letter-spacing: 3px;    
     text-align: center;
-    background: rgba(240, 108, 7, 0.3);
-    color: #fff;     
+    background: #000000;
+    color: #F0A500;     
     width: 800px;
     height: 50px;
     margin: auto;
@@ -57,21 +68,23 @@ nav ul li.nav-item a:hover{
 
 
 .boton a{
-    color: #fff;
+    color: #F0A500;
     font-size: 20px;
-    background: rgba(240, 108, 7, 0.3);
-    border: 1 px solid #fff; 
+    background: #2C3333;
+    text-decoration: none;
 }
 
+
 .boton a:hover{
-    background: rgba(0,0,0,0.5);
-    color: white;
+    background: white;
+    color: black;
     font-size: 25;
+    
 }
 
 
 .cambio .boton{
-    background:#856a6f;
+    background:red;
     color:#fff;
 }
 
@@ -80,13 +93,14 @@ nav ul li.nav-item a:hover{
     color: #fff;
 }
 
+
 .card .card-body a:hover{
    background: #000;
    color: #fff;
 }
 
 .card{
-    background: rgba(0,0,0,0.5);
+    background: #000000;
     border-radius: 20px;
 }
 
@@ -94,9 +108,9 @@ nav ul li.nav-item a:hover{
 
 .btn-wsp{
     position:fixed;
-    width:60px;
-    height:60px;
-    bottom:30px;
+    width:58px;
+    height:58px;
+    bottom:25px;
     right:15px;
     background:#1cc55a;
     color:#FFF;
@@ -112,8 +126,10 @@ nav ul li.nav-item a:hover{
     color: #25d366;
     background-color:#fff;
     }
+
+
     .icono{
-    margin-top:16px;
+    margin-top:47px;
     margin-left:3px;
     }
 
@@ -132,23 +148,33 @@ nav ul li.nav-item a:hover{
     }
 
     .redes a:hover{        
-        color: #734018;
+        color: #F0A500;
     }
 
 
+
+    aside .row iframe{
+        margin-left: 50px;
+    }
+
+
+    aside .boton{
+        margin-left: 20px;
+    }
+
     @media only screen and (min-width:320px) and (max-width:768px){
     .btn-wsp{
-    width:63px;
-    height:63px;
+    width:59px;
+    height:59px;
         }
 
 
         
-        .titulos h2{
+        .titulos .text{
             font-size: 20px;
             letter-spacing: 3px;    
             text-align: center;
-            background: rgba(240, 108, 7, 0.3);
+            background: #000000;
             color: white; 
             width: 320px;
             height: 30px;
@@ -168,7 +194,7 @@ nav ul li.nav-item a:hover{
        
 
         iframe{
-            width: 300px;
+            width: 285px;
             height: 190px;
         }
 
@@ -187,8 +213,7 @@ nav ul li.nav-item a:hover{
         }
         
 
-        .titulo a{
-            
+        .titulo a{            
             font-size: 20px;
         }
 
