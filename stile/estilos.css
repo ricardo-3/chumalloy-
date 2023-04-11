@@ -59,7 +59,7 @@ nav ul li.nav-item a:hover{
     width: 800px;
     height: 50px;
     margin: auto;
-    border-radius: 12px;
+    border-radius: 3px;
     margin-top: 90px;
     margin-bottom: 50px;
     box-shadow: 2px 19px 7px -15px rgba(255, 255, 255, 0.5);
@@ -168,10 +168,10 @@ nav ul li.nav-item a:hover{
             font-size: 20px;
             letter-spacing: 3px;    
             text-align: center;
-            background: #000000;
+            background: #1A0000;
             color: white; 
-            width: 320px;
-            height: 30px;
+            width: auto;
+            height: 33px;
             margin: auto;
             margin-top: 20px;
             margin-bottom: 20px;
