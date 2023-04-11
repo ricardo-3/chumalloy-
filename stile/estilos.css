@@ -1,5 +1,5 @@
 body{
-    background: #1B1A17; 
+    background: #292929; 
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Noto Serif', serif;
     box-sizing: border-box;
@@ -17,7 +17,9 @@ nav{
 .navbar-brand{
     letter-spacing: 4px;
     font-size: 27px;
-    color: #F0A500;    
+    color: #FDEDBB;   
+    font-family: 'Cinzel Decorative'; 
+    font-weight: bold;
 }
 
 .navbar .titulo a{
@@ -52,7 +54,7 @@ nav ul li.nav-item a:hover{
     font-size: 40px;
     letter-spacing: 3px;    
     text-align: center;
-    background: #000000;
+    background: #1A0000;
     color: #F0A500;     
     width: 800px;
     height: 50px;
@@ -68,39 +70,31 @@ nav ul li.nav-item a:hover{
 
 
 .boton a{
-    color: #F0A500;
+    color: #000;
     font-size: 20px;
-    background: #2C3333;
+    background: #F0A500;
     text-decoration: none;
 }
 
 
 .boton a:hover{
-    background: white;
-    color: black;
+    background: #000;
+    color: #F0A500;
     font-size: 25;
     
 }
 
 
-.cambio .boton{
-    background:red;
-    color:#fff;
-}
 
-.cambio .boton:hover{
-    background: #000;
-    color: #fff;
-}
 
 
 .card .card-body a:hover{
-   background: #000;
-   color: #fff;
+   background:#292929;
+   color: #F0A500;
 }
 
 .card{
-    background: #000000;
+    background: #141414;
     border-radius: 20px;
 }
 
