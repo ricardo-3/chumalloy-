@@ -179,6 +179,14 @@ nav ul li.nav-item a:hover{
             
                   
         }
+
+
+
+
+        .navbar a{
+            font-size: 18px;
+        }
+
         
     }
 
@@ -191,6 +199,11 @@ nav ul li.nav-item a:hover{
             width: 285px;
             height: 190px;
         }
+
+        .navbar a{
+            font-size: 18px;
+        }
+
 
         
 
@@ -209,6 +222,10 @@ nav ul li.nav-item a:hover{
 
         .titulo a{            
             font-size: 20px;
+        }
+
+        .navbar a{
+            font-size: 18px;
         }
 
     }
