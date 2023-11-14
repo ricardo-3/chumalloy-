@@ -104,7 +104,7 @@ nav ul li.nav-item a:hover{
     position:fixed;
     width:58px;
     height:58px;
-    bottom:25px;
+    bottom:40px;
     right:25px;
     background:#1cc55a;
     color:#FFF;
@@ -115,6 +115,8 @@ nav ul li.nav-item a:hover{
     z-index:5;
     transition: all 300ms ease;
     } 
+
+    
     .btn-wsp:hover {
     text-decoration: none;
     color: #25d366;
