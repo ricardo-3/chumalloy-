@@ -162,7 +162,10 @@ nav ul li.nav-item a:hover{
     .btn-wsp{
     width:55px;
     height:55px;
-    bottom:45px;
+    bottom:35px;
+    position:fixed;
+
+
         }
 
 
